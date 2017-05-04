@@ -37,6 +37,14 @@
             <version>1.7.10</version>
         </dependency>
 
+        <!-- JSTL -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- MYSQL -->
         <dependency>
             <groupId>mysql</groupId>
@@ -72,7 +80,4 @@
             <version>2.0.1</version>
         </dependency>
     </dependencies>
-
-
-
 </project>
